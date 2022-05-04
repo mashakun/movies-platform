@@ -1,8 +1,9 @@
 import React from "react";
+import cls from "./InfoPlace.module.css"
 
 const InfoPlace = () => {
     return (
-        <div class="InfoPlace">Info place</div>
+        <div class={cls.InfoPlace}>Info place</div>
     );
 };
 

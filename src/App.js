@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import Header from "./Components/Header"
-import SideBar from "./Components/SideBar"
-import ListPlace from "./Components/ListPlace"
-import InfoPlace from "./Components/InfoPlace";
+import Header from "./Components/Header/Header.jsx"
+import SideBar from "./Components/SideBar/SideBar.jsx"
+import ListPlace from "./Components/ListPlace/ListPlace.jsx"
+import InfoPlace from "./Components/InfoPlace/InfoPlace.jsx";
 
 const App = () => {
   return (
