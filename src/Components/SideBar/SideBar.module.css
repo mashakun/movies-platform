@@ -1,8 +1,14 @@
+.SideBar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #a4c3c9;
 
- .SideBar {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    background-color: #A4C3C9;
- }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 0.1fr 2fr 2fr 2fr 3fr;
+
+  align-items: center;
+  justify-items: center;
+}
