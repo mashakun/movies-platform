@@ -1,7 +1,11 @@
 .Header {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    background-color: #A4C3C9;
- }
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: #a4c3c9;
+
+  display: grid;
+  grid-template-columns: 2fr 8fr 1.2fr 1.2fr;
+  grid-auto-rows: 1fr 1fr 1fr;
+}

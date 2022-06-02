@@ -1,9 +1,9 @@
 import React from "react";
 import cls from "./ListName.module.css";
 
-const ListName = () => {
+const ListName = (props) => {
   return (
-      <item className={cls.Name}>FirstList</item>
+      <item className={cls.Name}>{props.listName}</item>
   );
 };
 

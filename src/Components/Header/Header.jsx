@@ -1,14 +1,15 @@
 import React from "react";
 import cls from "./Header.module.css";
-import GlobalButton from "./GlobalButton/GlobalButton.jsx";
+import SettingsButton from "./SettingsButton/SettingsButton.jsx";
+import UserButton from "./UserButton/UserButton.jsx";
 import ListName from "./ListName/ListName.jsx";
 
 const Header = () => {
   return (
     <div className={cls.Header}>
-      <GlobalButton />
-      <GlobalButton />
-      <ListName />
+      <SettingsButton />
+      <UserButton />
+      <ListName listName="My first list (omg)" />
     </div>
   );
 };
