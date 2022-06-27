@@ -1,0 +1,33 @@
+.Movie {
+  height: 50px;
+  display: grid;
+
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-auto-rows: 1fr 1fr;
+
+  align-items: center;
+}
+
+.left_el {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}
+
+.mid_el {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}
+
+.right_el {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}

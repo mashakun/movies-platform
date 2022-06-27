@@ -1,0 +1,9 @@
+.MainPage {
+    display: grid;
+    grid-template-columns: 1.1fr 4fr 3fr;
+    grid-auto-rows: 1fr 5fr;
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+    height:118vh;
+    background-color: #50545D;
+ }

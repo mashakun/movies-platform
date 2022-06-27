@@ -1,0 +1,26 @@
+input[type="checkbox"] {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  .checkedTrue {
+    display: inline-block;
+    background-image: url("../../../check_img/checked.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 40px;
+    height: 30px;
+  }
+  
+  .checkedFalse {
+    display: inline-block;
+    background-image: url("../../../check_img/unchecked.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 40px;
+    height: 30px;
+  }

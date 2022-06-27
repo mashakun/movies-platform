@@ -1,0 +1,12 @@
+.Name {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  color: #50545d;
+}
+
+.Name_active {
+  color: #BD6B73;
+}

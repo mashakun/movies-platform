@@ -1,17 +1,18 @@
 import React from "react";
 import "./App.css";
-import Header from "./Components/Header/Header.jsx"
-import SideBar from "./Components/SideBar/SideBar.jsx"
-import ListPlace from "./Components/ListPlace/ListPlace.jsx"
-import InfoPlace from "./Components/InfoPlace/InfoPlace.jsx";
+import EnterPage from "./EnterPage/EnterPage";
+import MainPage from "./MainPage/MainPage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div class="wrapper">
-      <Header />
-      <SideBar />
-      <ListPlace />
-      <InfoPlace />
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<EnterPage />} />
+          <Route path="/MainPage" element={<MainPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 };
