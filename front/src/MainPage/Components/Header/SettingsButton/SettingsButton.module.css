@@ -1,0 +1,21 @@
+.SettingsButton {
+  background-image: url("../../buttons_img/Logout.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: #a4c3c9;
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.SettingsButton:hover {
+  border: 1px solid #50545d;
+}
+
+.SettingsButton:active {
+  box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+  border: 1px solid #50545d;
+}

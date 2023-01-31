@@ -1,0 +1,26 @@
+.RandomButton {
+  background-color: #c2e812;
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #50545d;
+
+  border: none;
+  border-radius: 50%;
+  width: 126px;
+  height: 126px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.RandomButton:active {
+  box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.25));
+}

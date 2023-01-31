@@ -1,0 +1,24 @@
+.ShareButton {
+    background-image: url("../../../buttons_img/VectorShare.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: #a4c3c9;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  
+    width: 92px;
+    height: 92px;
+  }
+  
+  .ShareButton:hover {
+      border: 1px solid #50545D;
+  }
+  
+  .ShareButton:active {
+      box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+      border: 1px solid #50545D;
+  }
+  

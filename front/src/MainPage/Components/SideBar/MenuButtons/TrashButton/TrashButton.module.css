@@ -1,0 +1,25 @@
+.TrashButton {
+    background-image: url("../../../buttons_img/VectorTrash.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: #a4c3c9;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  
+    width: 92px;
+    height: 92px;
+  
+  }
+  
+  .TrashButton:hover {
+      border: 1px solid #50545D;
+  }
+  
+  .TrashButton:active {
+      box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+      border: 1px solid #50545D;
+  }
+  

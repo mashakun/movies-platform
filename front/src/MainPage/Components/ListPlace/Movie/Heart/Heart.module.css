@@ -1,0 +1,35 @@
+input[type="checkbox"] {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .clear {
+    display: inline-block;
+    background-image: url("../../../check_img/HeartClear.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 33px;
+  }
+  
+  .liked {
+    display: inline-block;
+    background-image: url("../../../check_img/HeartLiked.svg");
+    background-position:bottom;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 33px;
+  }
+  
+  .disliked {
+    display: inline-block;
+    background-image: url("../../../check_img/HeartDisliked.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 33px;
+  }
